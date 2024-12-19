@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import Helloworld from "./components/Helloworld";
+import Navbar from "./layouts/header-footer/Navbar";
 
 function App() {
-  return (
-    <div className={"app"}>
-      <Helloworld/>
-    </div>
-  );
+    return (
+       <Navbar/>
+    )
 }
 
 export default App;
